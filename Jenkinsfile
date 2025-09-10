@@ -3,7 +3,10 @@ pipeline{
     stages{
         stage("Build"){
             steps{
-                echo "Building ..."
+                echo "Building..."
+                echo "Building build.gradle"
+                echo "Compiling code..."
+                echo "Build complete."
             }
             post{
                 success{
@@ -30,3 +33,4 @@ pipeline{
     }
     }
 }
+

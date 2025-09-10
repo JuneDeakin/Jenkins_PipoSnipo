@@ -76,8 +76,9 @@ pipeline {
     post {
         always {
             echo "==========================================="
-            echo "Pipeline completed – All stages executed."
+            echo "Pipeline completed: All stages executed."
             echo "==========================================="
         }
     }
 }
+

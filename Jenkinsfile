@@ -77,8 +77,10 @@ pipeline {
         always {
             echo "==========================================="
             echo "Pipeline completed: All stages executed."
+            echo "Pipeline changed."
             echo "==========================================="
         }
     }
 }
+
 
